@@ -18,7 +18,7 @@ const anotherId = Symbol('123')
 // console.log(anotherId);
 
 const bigNumber = 3456897654321n
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 // console.log(bigNumber);
 
 
@@ -35,3 +35,32 @@ let myObj = {
 const myFunction = function(){
     console.log("helloWorld");
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+// MEMORY ALLOCATION
+
+// Stack (primitive) , Heap (Non-primitive)
+
+let myname = "sushant";
+
+let anothername = myname
+anothername = "shubham"
+
+console.log(myname);
+console.log(anothername);
+
+// object
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+console.log(userOne);
+
+let userTwo = userOne
+
+userTwo.email = "sushant@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
