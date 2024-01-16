@@ -67,7 +67,7 @@ const myNewArray = [200, 300, 400, 500]
 
 function returnSecondValue(getArray){
     return getArray[1]
-}
+} 
 
 
 
