@@ -30,7 +30,8 @@
 				"editor.wordWrap": "on",
 				"liveServer.settings.root": "/workspace",
 				"liveServer.settings.useLocalIp": true,
-				"liveServer.settings.port": 5500
+				"liveServer.settings.port": 5500,
+				"code-runner.runInTerminal": true
 			}
 			
 		}
