@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lets learn javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setInterval(function(){
+    //     console.log("sushant", Date.now());
+    // },1000)
+
+    const sayDate = function(str){
+        console.log(str, "sushant" , Date.now());
+    }
+    // setInterval(sayDate,1000, "hi");
+    // const interValid = setInterval(sayDate,1000, "hi");
+    // clearInterval(interValid)
+    let interValidId
+    const interValid = () => {
+        interValidId = setInterval(sayDate,1000, "hi");
+    }
+    document.querySelector('#start').addEventListener('click', () => {
+        interValid()
+    })
+    document.querySelector('#stop').addEventListener('click', () => {
+        clearInterval(interValidId);
+        console.log("STOPPED");
+    })
+
+</script>
+</html>
