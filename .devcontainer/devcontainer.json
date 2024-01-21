@@ -21,12 +21,16 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"ritwickdey.liveserver"
 			],
 			"settings": {
 				"editor.fontSize": 14,
 				"terminal.integrated.fontSize": 14,
-				"editor.wordWrap": "on"
+				"editor.wordWrap": "on",
+				"liveServer.settings.root": "/workspace",
+				"liveServer.settings.useLocalIp": true,
+				"liveServer.settings.port": 5500
 			}
 			
 		}
