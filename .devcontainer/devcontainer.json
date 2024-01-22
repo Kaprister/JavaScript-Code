@@ -22,7 +22,8 @@
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
 				"formulahendry.code-runner",
-				"ritwickdey.liveserver"
+				"ritwickdey.liveserver",
+				"dzannotti.vscode-babel-coloring"
 			],
 			"settings": {
 				"editor.fontSize": 14,
